@@ -3,4 +3,5 @@
 This repository contains the conventions for all intercogni projects
 
 # Directory
-- [Naming Conventions](./docs/naming.md)
+- [Line and Indentation](./docs/line-and-indentation.md)
+- [Naming](./docs/naming.md)
