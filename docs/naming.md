@@ -1,6 +1,17 @@
 # Naming
 This document outlines all the naming conventions to be followed.
 
+## TLDR
+> Primitive Data Type : `snake_case`
+
+> Functions : `camelCase`
+
+> Classes : `PascalCase`
+
+> Folders in **Home** or **/~** or Windows from root up to **C:\Users\Username**: `PascalCase`
+
+> Folders anywhere else: `snake_case`
+
 ## Sets
 Sets are defined as an entity that is capable to store information and or process.
 
@@ -64,14 +75,14 @@ void cppHelloRepeater(int count) {
 ```
 
 ### Set Level 1: Classes
-> Use `Pascal_Snake_Case` i.e. `Cobra_Case` to define `level 1 sets`.
+> Use `Pascal_Case` to define `level 1 sets`.
 
 Sets with a `set level` of 1 contains information and or processes that **can** be broken down into user-defined components and or methods.
 
 Sets with a `set level` of 1 includes class and or dictionaries.
 
 ```python
-class Python_Class():
+class PythonClass():
     def __init__(self, name):
         self.name = name
 
@@ -80,7 +91,7 @@ class Python_Class():
 ```
 
 ```js
-const [Js_Msg, setJsMsg] = useState({
+const [JsMsg, setJsMsg] = useState({
     title: "js msg",
     msg_type: "formal",
     data: "lorem ipsum dolor sit amet consectetur..."
@@ -88,7 +99,7 @@ const [Js_Msg, setJsMsg] = useState({
 ```
 
 ```cpp
-class Cpp_Class {
+class CppClass {
 public:
     void Shout() {
         std::cout << "HELLO EVERYONE" << std::endl;
